@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title> About Me: Valerie Sun </title>
+		<title> About: Valerie Sun </title>
 		<meta name="description" content="About Valerie Sun.">
 		<meta name="author" content="Valerie Sun">
 
@@ -43,6 +43,7 @@
             <header id="header" class="header-main">
 
                 <!-- Begin Navbar -->
+                <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> 
 
                   <div class="container">
 
@@ -61,7 +62,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a class="page-scroll" href="index.html">Home</a></li>
                             <li><a class="current-page">About Me</a></li>
-                            <li><a class="page-scroll" href="papers.html">Papers</a></li>
+                            <li><a class="page-scroll" href="papers.html" >Papers</a></li>
                             <li><a class="page-scroll" href="coding.html">Coding</a></li>
                             <li><a class="page-scroll" href="tutoring.html">Tutoring</a></li>
                         </ul>
@@ -81,32 +82,52 @@
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-                            <h2> ABOUT ME </h2>
+                            <h2>PAPERS</h2>
                             <div class="devider"></div>
                             <p class="subtitle">
-                                Hi! I am Valerie (she/her), and I have lived in Chapel Hill, NC, for my entire life.
-                                Since childhood, I have loved math and science.
-                                This passion propels me to learn more, conduct research and hands-on experiments, 
-                                and share this interest with others.
+                                This page contains the math and scientific papers I have written throughout high school.
+                                Most of these works are personal projects, while others are reports for school.
+                                In the future, I plan to publish a science blog containing these works.
+                                These works may not be redistributed or reproduced.
                             </p>
+                            <table class="works-display">
+                                <tr>
+                                    <td>
+                                        Application of ODEs: Pendulums
+                                        <iframe src="papers/Pendulum_Second_Order_ODEs.pdf"></iframe>
+                                    </td>
+                                    <td>
+                                        Simulating the Origin of Life on Earth 
+                                        <iframe src="papers/Origin_of_Life_Biology_Lab_Report.pdf"></iframe>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Exploring Buoyancy: Why Objects Float or Sink
+                                        <iframe src="papers/Buoyancy.pdf"></iframe>
+                                    </td>
+                                    <td>
+                                        Deriving Uniformly Accelerated Motion Kinematic Equations
+                                        <iframe src="papers/Kinematic_Equations_Derivation.pdf"></iframe>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
                 <!-- End page header--> 
-            </section>
-            <!-- End about section -->
-                
-            </section>
-            <!-- End Services -->
-            <script> 
-                $(function(){
-                $("#footer").load("footer.html"); 
-                });
-            </script> 
-            <div id="footer"></div>
+          </section>
+        <!-- End about section -->
+        <!-- End Services -->
+        <script> 
+        $(function(){
+            $("#footer").load("footer.html"); 
+        });
+        </script> 
+        <div id="footer"></div>
 
-            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
-                                              
+        <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+                                             
         </div><!-- body ends -->
         
         
